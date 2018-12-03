@@ -167,6 +167,7 @@
 					'status' => 'success',
 					'code' => 200,
 					'message' => 'Imagen Recibida'
+					'filename' => $filename
 				);
 			}
 		}
