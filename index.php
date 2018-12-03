@@ -166,8 +166,8 @@
 				$result = array(
 					'status' => 'success',
 					'code' => 200,
-					'message' => 'Imagen Recibida'
-					'filename' => $filename
+					'message' => 'Imagen Recibida',
+					'filename' => $file_name
 				);
 			}
 		}
