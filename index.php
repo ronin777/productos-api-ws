@@ -112,7 +112,8 @@
 		$sql = "UPDATE productos SET "
 				."nombre = '{$data['nombre']}', "
 				."descripcion = '{$data['descripcion']}', "
-				."precio = '{$data['precio']}' "
+				."precio = '{$data['precio']}', "
+				."imagen = '{$data['imagen']}' "
 				." WHERE id = {$id}";
 		var_dump($sql);
 		$query = $db->query($sql);
